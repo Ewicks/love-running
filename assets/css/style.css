@@ -238,3 +238,17 @@ footer {
     padding: 5%; /* padding and margin use to space the icons out */
     color: #3a3a3a;
 }
+
+/* Gallery */
+
+#photos {
+    clear: both; /* so the images display beneath the header */
+    line-height: 0; /* remove horizontal gaps between images on the top */
+    column-count: 4; /* have 4 columns of pics */
+    column-gap: 0;
+
+}
+
+#photos > img {
+    width: 100%;
+}
