@@ -281,6 +281,14 @@ footer {
         padding: 0;
     }
 
+    #times > div { /* each. times child div */
+        width: 100%;
+        clear: both; /* to stack each image vertically */
+        height: 150px;
+        padding: 0;
+
+    }
+
     hr {
         display: none;
     }
@@ -303,7 +311,7 @@ footer {
 
     #club-ethos {
         width: 90%;
-        height: 1200px;
+        height: 1000px;
         margin: 0 auto;
     }
 
